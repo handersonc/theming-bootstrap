@@ -1,5 +1,13 @@
-$bg-color: red;
+
+
 
 body {
-    background: $bg-color;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
+
+@import "_nav.scss";
+@import "_variables.scss";
+@import "node_modules/bootstrap/scss/bootstrap";
+
+

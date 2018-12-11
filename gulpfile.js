@@ -21,11 +21,12 @@ gulp.task('js', function() {
 gulp.task('serve', ['sass'], function() {
 
     browserSync.init({
-        server: "./src"  
+        server: "./src" 
     });
 
     gulp.watch(['node_modules/bootstrap/scss/bootstrap.scss', 'src/scss/*.scss'], ['sass']);
     gulp.watch("src/*.html").on('change', browserSync.reload);
+    gulp.watch("src/public_html/*.html").on('change', browserSync.reload);
 });
 
 gulp.task('default', ['js','serve']);
