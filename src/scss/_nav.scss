@@ -2,6 +2,7 @@
 .navbar-red {
     padding: 0px;
     border-radius: 10px;
+    margin: 10px 0px;
 
     .navbar-brand {
         color: $navbar-red-active-color;
@@ -42,7 +43,6 @@
 
             padding-top: 8px;
             padding-bottom: 10px;
-            width: 20%;
         }
 
         .nav-item.active, .nav-item:hover {
