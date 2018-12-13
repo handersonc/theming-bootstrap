@@ -1,13 +1,23 @@
 
 
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "_variables.scss";
+@import "_nav.scss";
 
 body {
     text-transform: uppercase;
     letter-spacing: 1px;
+    font-size: 14px;
 }
 
-@import "_nav.scss";
-@import "_variables.scss";
-@import "node_modules/bootstrap/scss/bootstrap";
+.bg-red {
+    background-color: #e23e15 !important;
+}
+  
+  a.bg-red:hover, a.bg-red:focus,
+  button.bg-red:hover,
+  button.bg-red:focus {
+    background-color: #e23e15 !important;
+}
 
 

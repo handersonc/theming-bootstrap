@@ -1,0 +1,80 @@
+// Dark links against a red background
+.navbar-red {
+    padding: 0px;
+    border-radius: 25px;
+
+    .navbar-brand {
+      color: $navbar-red-active-color;
+  
+    @include hover-focus {
+        color: $navbar-red-active-color;
+      }
+    }
+  
+    .navbar-nav {
+        .nav-link {
+            color: $navbar-red-color;
+  
+            @include hover-focus {
+                color: $navbar-red-hover-color;
+            }
+  
+            &.disabled {
+                color: $navbar-red-disabled-color;
+            }
+        }
+  
+        .show > .nav-link,
+        .active > .nav-link,
+        .nav-link.show,
+        .nav-link.active {
+            color: $navbar-red-active-color;
+        }
+        .divider {
+            border: 0.5px solid $white;
+            margin: 5px 0px;
+        }
+
+        .nav-item {
+            @extend .nav-item;
+           
+            padding: 10px 50px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            width: 20%;
+        }
+
+        .nav-item.active, .nav-item:hover {
+            -webkit-box-shadow: 0 9px 3px #FF0000;
+            -moz-box-shadow: 0 9px 3px #FF0000;
+            box-shadow: 0 9px 3px #FF0000;
+            -o-box-shadow: 10px 10px  5px rgba(0,0,0,0.6);    
+        }
+
+        .nav-item.active, .nav-item:hover, .nav-link:hover {
+            border-color: rgb(151, 71, 89);
+            background-color:#ff3333;
+            color: $navbar-red-active-color;;
+        }
+    }
+  
+    .navbar-toggler {
+      color: $navbar-red-color;
+      border-color: $navbar-red-toggler-border-color;
+    }
+  
+    .navbar-toggler-icon {
+      background-image: $navbar-red-toggler-icon-bg;
+    }
+  
+    .navbar-text {
+      color: $navbar-red-color;
+      a {
+        color: $navbar-red-active-color;
+  
+        @include hover-focus {
+          color: $navbar-red-active-color;
+        }
+      }
+    }
+}
