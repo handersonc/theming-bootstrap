@@ -6376,10 +6376,9 @@ a.text-dark:hover, a.text-dark:focus {
     padding: 5px; }
     .form-login-container .form-group input {
       outline: 0;
-      border-width: 0 0 2px;
+      border-width: 0 0 1px;
       border-color: rgba(173, 181, 189, 0.7);
       background: transparent;
-      font-weight: 500;
       font-size: 14px;
       text-transform: uppercase;
       color: #fff; }
