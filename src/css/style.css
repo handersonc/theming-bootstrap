@@ -6313,10 +6313,12 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 /* navbar red */
+/* buttons */
+/* forms */
 .navbar-red {
   padding: 0px;
   border-radius: 10px;
-  margin: 10px 0px; }
+  margin: 7px 0px; }
   .navbar-red .navbar-brand {
     color: white; }
     .navbar-red .navbar-brand:hover, .navbar-red .navbar-brand:focus {
@@ -6360,6 +6362,60 @@ a.text-dark:hover, a.text-dark:focus {
       color: white; }
       .navbar-red .navbar-text a:hover, .navbar-red .navbar-text a:focus {
         color: white; }
+
+.form-login-container {
+  background-image: url("/assets/adult-alcohol-blur-290316-min.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  margin: 7px 0px; }
+  .form-login-container .form-group {
+    padding: 5px; }
+    .form-login-container .form-group input {
+      outline: 0;
+      border-width: 0 0 2px;
+      border-color: rgba(173, 181, 189, 0.7);
+      background: transparent;
+      font-weight: 500;
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #fff; }
+  .form-login-container button {
+    text-transform: uppercase;
+    padding: 5px 20px; }
+  .form-login-container a {
+    font-size: 8px;
+    text-decoration: underline; }
+
+.btn-danger {
+  font-size: 12px;
+  color: white;
+  line-height: 15px;
+  border: 2px solid rgba(217, 83, 78, 0.75);
+  border-radius: 20px;
+  background-color: rgba(255, 0, 0, 0.7);
+  transition: all 0.3s ease 0s; }
+
+.btn-danger:hover {
+  color: #FFF;
+  background: rgba(255, 51, 51, 0.9);
+  border: 2px solid rgba(255, 51, 51, 0.7); }
+
+.btn-transparent {
+  font-size: 12px;
+  color: #dc3545;
+  line-height: 15px;
+  border-radius: 20px;
+  background-color: transparent;
+  transition: all 0.3s ease 0s; }
+
+.btn-transparent:hover {
+  color: #FFF;
+  background: rgba(220, 53, 69, 0.9);
+  border: 2px solid rgba(255, 51, 51, 0.7); }
 
 body {
   text-transform: uppercase;

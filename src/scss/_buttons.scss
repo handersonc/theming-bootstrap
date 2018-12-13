@@ -1,0 +1,31 @@
+
+.btn-danger {
+    font-size: 12px;
+    color: rgba($white, 1);
+    line-height: 15px;
+    border: 2px solid rgba(217, 83, 78, 0.75);
+    border-radius: 20px;
+    background-color: rgba($button-red-color, .7);
+    transition: all 0.3s ease 0s;
+}
+  
+.btn-danger:hover {
+    color: #FFF;
+    background: rgba($button-red-hover-color, .9);
+    border: 2px solid rgba($button-red-hover-color, .7);
+}
+
+.btn-transparent {
+    font-size: 12px;
+    color: rgba($red, 1);
+    line-height: 15px;
+    border-radius: 20px;
+    background-color: transparent;
+    transition: all 0.3s ease 0s;
+}
+
+.btn-transparent:hover {
+    color: #FFF;
+    background: rgba($red, .9);
+    border: 2px solid rgba($button-red-hover-color, .7);
+}

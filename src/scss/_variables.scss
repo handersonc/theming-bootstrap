@@ -10,3 +10,11 @@ $navbar-red-disabled-color:       rgba($gray-500, .3) !default;
 $navbar-red-toggler-icon-bg:      str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{$navbar-red-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"), "#", "%23") !default;
 $navbar-red-toggler-border-color: rgba($white, .1) !default;
 
+/* buttons */
+$button-red-color: #FF0000 !default;
+$button-red-hover-color: #ff3333 !default;
+
+/* forms */
+$form-text-size: 14px;
+$form-text-transform: uppercase !default;
+
