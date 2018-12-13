@@ -1,19 +1,21 @@
 // Dark links against a red background
 .navbar-red {
     padding: 0px;
-    border-radius: 25px;
+    border-radius: 10px;
 
     .navbar-brand {
-      color: $navbar-red-active-color;
-  
-    @include hover-focus {
         color: $navbar-red-active-color;
-      }
+  
+        @include hover-focus {
+            color: $navbar-red-active-color;
+        }
     }
   
     .navbar-nav {
         .nav-link {
             color: $navbar-red-color;
+            margin: 0px 50px;
+            white-space: nowrap;
   
             @include hover-focus {
                 color: $navbar-red-hover-color;
@@ -37,9 +39,8 @@
 
         .nav-item {
             @extend .nav-item;
-           
-            padding: 10px 50px;
-            padding-top: 10px;
+
+            padding-top: 8px;
             padding-bottom: 10px;
             width: 20%;
         }
@@ -47,34 +48,34 @@
         .nav-item.active, .nav-item:hover {
             -webkit-box-shadow: 0 9px 3px #FF0000;
             -moz-box-shadow: 0 9px 3px #FF0000;
-            box-shadow: 0 9px 3px #FF0000;
+            box-shadow: 0 9px 3px rgb(165, 7, 7);
             -o-box-shadow: 10px 10px  5px rgba(0,0,0,0.6);    
         }
 
         .nav-item.active, .nav-item:hover, .nav-link:hover {
             border-color: rgb(151, 71, 89);
             background-color:#ff3333;
-            color: $navbar-red-active-color;;
+            color: $navbar-red-active-color;
         }
     }
   
     .navbar-toggler {
-      color: $navbar-red-color;
-      border-color: $navbar-red-toggler-border-color;
+        color: $navbar-red-color;
+        border-color: $navbar-red-toggler-border-color;
     }
   
     .navbar-toggler-icon {
-      background-image: $navbar-red-toggler-icon-bg;
+        background-image: $navbar-red-toggler-icon-bg;
     }
   
     .navbar-text {
-      color: $navbar-red-color;
-      a {
-        color: $navbar-red-active-color;
+        color: $navbar-red-color;
+        a {
+            color: $navbar-red-active-color;
   
-        @include hover-focus {
-          color: $navbar-red-active-color;
+            @include hover-focus {
+                color: $navbar-red-active-color;
+            }
         }
-      }
     }
 }
