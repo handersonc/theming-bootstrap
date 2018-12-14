@@ -6382,6 +6382,9 @@ a.text-dark:hover, a.text-dark:focus {
       font-size: 14px;
       text-transform: uppercase;
       color: #fff; }
+    .form-login-container .form-group input:focus {
+      border-color: #fff;
+      opacity: 1; }
   .form-login-container button {
     text-transform: uppercase;
     padding: 5px 20px; }

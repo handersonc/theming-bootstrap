@@ -20,6 +20,11 @@
             text-transform: uppercase;
             color: $white;
         }
+
+        input:focus {
+            border-color: $white;
+            opacity: 1;
+        }
     }
 
     button {
