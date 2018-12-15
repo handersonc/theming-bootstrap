@@ -6,7 +6,8 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
-        <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
         <link rel="stylesheet" href="/css/style.css">
     </head>
 
@@ -50,7 +51,7 @@
 
             <div class="row">
                 <!--SIDEBAR-->
-                <div class="col-sm-3">
+                <div class="col-md-3 col-xs-3">
                     <div class="nav navbar-red bg-light flex-column">
                         <ul class="navbar-nav">
                             <li class="nav-item">
@@ -67,14 +68,14 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="p-3 mb-2 bg-light text-dark">
+                    <div class="p-1 mb-2 bg-light text-dark">
                         <form>
                             <div class="form-group">
                                 <label for="start-date">
                                     Check IN    
                                 </label><br/>
                                 <input type="text" id="start-date" class="input-field" placeholder="choose a date">
-                                <i class="fa fa-calendar"></i>
+                                <i class="fas fa-calendar"></i>
                             </div>
                             
                             <div class="form-group">
@@ -82,7 +83,7 @@
                                     Check IN    
                                 </label><br/>
                                 <input id="end-date" type="text" class="input-field" placeholder="choose a date">
-                                <i class="fa fa-calendar"></i>
+                                <i class="fas fa-calendar"></i>
                             </div>
         
                             <div class="form-group">
@@ -103,37 +104,60 @@
                 <!--SIDEBAR-->
 
                 <!--MAIN CONTENT-->
-                <div class="col-sm-9">
-                    <div class="row no-gutters">
+                <div class="col-md-9 col-xs-9">
+                    <div class="row">
                         <!--LOGIN FORM-->
-                        <div class="col-sm-8">
-                            <div class="form-container">
-                                <form>
-                                    <div class="form-group">
-                                        <i class="fa fa-user icon"></i>
-                                        <input type="text" class="input-field" placeholder="Handerson Contreras">
-                                    </div>
-                                    
-                                    <div class="form-group">
-                                        <i class="fa fa-key"></i>
-                                        <input type="password" class="input-field" placeholder="******">
-                                        <i class="fa fa-eye"></i>
-                                    </div>
-                                    
-                                    <div class="form-group">
-                                        <button class="btn btn-danger">sign in</button>
-                                        <button class="btn btn-transparent">sign up</button>
-                                    </div>
-                                    <a href="#" class="forgot-password">Forgot Password</a>                
-                                </form>
+                        <div class="col-md-8 col-xs-8">
+                            <div class="p-2 mb-2 bg-light text-dark">
+                                <div class="form-login-container">
+                                    <form>
+                                        <div class="form-group">
+                                            <i class="fas fa-user icon"></i>
+                                            <input type="text" class="input-field" placeholder="Handerson Contreras">
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <i class="fas fa-key"></i>
+                                            <input type="password" class="input-field" placeholder="******">
+                                            <i class="fas fa-eye"></i>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <button class="btn btn-danger">sign in</button>
+                                            <button class="btn btn-transparent">sign up</button>
+                                        </div>
+                                        <a href="#" class="forgot-password">Forgot Password</a>                
+                                    </form>
+                                </div>
                             </div>
                         </div>
                         <!--LOGIN FORM-->
                         <!--CALENDAR-->
-                        <div class="col-sm-4">
+                        <div class="col-md-4 col-xs-4">
 
                         </div>
                         <!--CALENDAR-->               
+                    </div>
+                    <div class="row no-gutters">
+                        <div class="col-md-4 col-xs-4">
+                            <div class="p-1 mb-2 bg-light text-dark">
+                                <div class="card text-white">
+                                    <img class="card-img" src="/assets/beach-beach-chairs-blue-sky.jpg" alt="Card image">
+                                    <div class="card-img-overlay">
+                                        <h5 class="card-title text-center">San Diego</h5>
+                                        <p class="card-text text-center h5">23 °C <i class="fas fa-cloud-sun fa-1x"></i></p>
+                                        <div class="d-flex flex-row text-center p-4">
+                                            <div class="col-sm-4"><i class="fas fa-cloud-sun-rain fa-3x"></i></div>
+                                            <div class="col-sm-4"><i class="fas fa-cloud-showers-heavy fa-3x"></i></div>
+                                            <div class="col-sm-4"><i class="fas fa-wind fa-3x"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-xs-8">
+
+                        </div>
                     </div>
                 </div>
                 <!--MAIN CONTENT-->

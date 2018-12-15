@@ -6363,7 +6363,7 @@ a.text-dark:hover, a.text-dark:focus {
       .navbar-red .navbar-text a:hover, .navbar-red .navbar-text a:focus {
         color: white; }
 
-.form-container {
+.form-login-container {
   background-image: url("/assets/adult-alcohol-blur-290316-min.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -6372,8 +6372,8 @@ a.text-dark:hover, a.text-dark:focus {
   padding-left: 30px;
   padding-top: 15px;
   padding-bottom: 30px;
-  margin: 7px 0px; }
-  .form-container a {
+  margin: 7px px; }
+  .form-login-container a {
     font-size: 8px;
     text-decoration: underline; }
 
@@ -6459,6 +6459,12 @@ a.text-dark:hover, a.text-dark:focus {
   color: #FFF;
   background: rgba(255, 185, 15, 0.9);
   border: 2px solid rgba(255, 185, 15, 0.7); }
+
+.wheather-card {
+  background-image: url("/assets/beach-beach-chairs-blue-sky.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
 
 body {
   text-transform: uppercase;
