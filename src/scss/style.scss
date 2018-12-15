@@ -5,12 +5,12 @@
 @import "_nav.scss";
 @import "_forms.scss";
 @import "_buttons.scss";
-@import "_wheather-card.scss";
 
 body {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 12px;
+    color: rgba($body-color, .9);
 }
 
 
