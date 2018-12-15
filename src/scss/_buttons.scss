@@ -7,6 +7,8 @@
     border-radius: 20px;
     background-color: rgba($button-red-color, .7);
     transition: all 0.3s ease 0s;
+    text-transform: $form-text-transform;
+    padding: 5px 20px;
 }
   
 .btn-danger:hover {
@@ -23,6 +25,8 @@
     border-radius: 20px;
     background-color: transparent;
     transition: all 0.3s ease 0s;
+    text-transform: $form-text-transform;
+    padding: 5px 20px;
 }
 
 .btn-transparent:hover {
@@ -40,6 +44,8 @@
     border-radius: 20px;
     background-color: rgba($button-blue-color, .7);
     transition: all 0.3s ease 0s;
+    text-transform: $form-text-transform;
+    padding: 5px 20px;
 }
 
 .btn-info:hover {
@@ -57,6 +63,8 @@
     border-radius: 20px;
     background-color: rgba($button-yellow-color, .7);
     transition: all 0.3s ease 0s;
+    text-transform: $form-text-transform;
+    padding: 5px 20px;
 }
 
 .btn-warning:hover {
