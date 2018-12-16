@@ -6387,8 +6387,8 @@ a.text-dark:hover, a.text-dark:focus {
     font-size: 14px;
     text-transform: uppercase;
     color: #adb5bd; }
-  .form-group input:focus {
-    border-color: #fff; }
+    .form-group input:hover, .form-group input:focus {
+      border-color: #fff; }
   .form-group label {
     font-weight: bold;
     color: #adb5bd; }
@@ -6459,6 +6459,37 @@ a.text-dark:hover, a.text-dark:focus {
   color: #FFF;
   background: rgba(255, 185, 15, 0.9);
   border: 2px solid rgba(255, 185, 15, 0.7); }
+
+.social-bar {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 40px;
+  margin: 0px 15px;
+  list-style: none;
+  border-radius: 0.25rem; }
+
+.social-bar-item {
+  padding: 15px 15px; }
+  .social-bar-item .active {
+    color: #ff3333; }
+  .social-bar-item:hover, .social-bar-item:focus {
+    background-color: #ff3333; }
+    .social-bar-item:hover i, .social-bar-item:focus i {
+      color: white; }
+  .social-bar-item a {
+    color: #99979C; }
+
+input {
+  padding: 15px 15px;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: rgba(173, 181, 189, 0.1);
+  background: transparent;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #adb5bd; }
+  input:hover, input:focus {
+    border-color: #fff; }
 
 body {
   text-transform: uppercase;

@@ -25,11 +25,11 @@
         background: transparent;
         font-size: 14px;
         text-transform: uppercase;
-        color: rgba($gray-500, 1);;
-    }
+        color: rgba($gray-500, 1);
 
-    input:focus {
-        border-color: $white;
+        @include hover-focus {
+            border-color: $white;
+        }
     }
 
     label {

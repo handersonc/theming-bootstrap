@@ -1,0 +1,55 @@
+.social-bar {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 40px;
+    margin: 0px 15px;
+    list-style: none;
+    @include border-radius($breadcrumb-border-radius);
+}
+
+.social-bar-item {
+    // The separator between breadcrumbs (by default, a forward-slash: "/")
+    
+    padding: 15px 15px;
+    // IE9-11 hack to properly handle hyperlink underlines for breadcrumbs built
+    // without `<ul>`s. The `::before` pseudo-element generates an element
+    // *within* the .social-bar-item and thereby inherits the `text-decoration`.
+    //
+    // To trick IE into suppressing the underline, we give the pseudo-element an
+    // underline and then immediately remove it.
+  
+    .active {
+        color: #ff3333;
+    }
+
+    @include hover-focus { 
+        background-color:#ff3333;
+
+        i {
+            color: white;
+        }
+    }
+
+    a {
+        color: $body-color;
+    }
+}
+
+input {
+    padding: 15px 15px;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: rgba($gray-500, .1);
+    background: transparent;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: rgba($gray-500, 1);
+
+    @include hover-focus {
+        border-color: $white;
+    }
+
+}
+
+
+  
