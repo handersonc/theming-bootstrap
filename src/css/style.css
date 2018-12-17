@@ -6491,6 +6491,21 @@ input {
   input:hover, input:focus {
     border-color: #fff; }
 
+.chart {
+  padding: 15px;
+  width: 100%; }
+
+.chart-bar {
+  fill: #aaa;
+  height: 21px;
+  transition: fill .3s ease;
+  cursor: pointer; }
+  .chart-bar rect {
+    height: 15px;
+    fill: rgba(0, 123, 255, 0.9); }
+    .chart-bar rect:hover, .chart-bar rect:focus {
+      fill: rgba(0, 123, 255, 0.7); }
+
 body {
   text-transform: uppercase;
   letter-spacing: 1px;
