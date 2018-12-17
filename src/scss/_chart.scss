@@ -1,0 +1,22 @@
+.chart {
+    padding: 15px;
+    width: 100%;
+}
+.chart-bar {
+    fill: #aaa;
+    height: 21px;
+    transition: fill .3s ease;
+    cursor: pointer;
+
+    rect {
+        height: 15px;
+
+        fill: rgba($blue, .9);
+
+        @include hover-focus {
+            fill: rgba($blue, .7);
+        }
+    }
+
+    
+}
