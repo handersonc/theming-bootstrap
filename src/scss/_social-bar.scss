@@ -8,15 +8,8 @@
 }
 
 .social-bar-item {
-    // The separator between breadcrumbs (by default, a forward-slash: "/")
     
     padding: 15px 15px;
-    // IE9-11 hack to properly handle hyperlink underlines for breadcrumbs built
-    // without `<ul>`s. The `::before` pseudo-element generates an element
-    // *within* the .social-bar-item and thereby inherits the `text-decoration`.
-    //
-    // To trick IE into suppressing the underline, we give the pseudo-element an
-    // underline and then immediately remove it.
   
     .active {
         color: #ff3333;
@@ -47,6 +40,7 @@ input {
 
     @include hover-focus {
         border-color: $white;
+        width: 50%; transition: 0.6s;
     }
 
 }

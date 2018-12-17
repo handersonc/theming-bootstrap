@@ -20,7 +20,7 @@
 
     input {
         outline: 0;
-        border-width: 0 0 2px;
+        border-width: 0 0 1px;
         border-color: rgba($gray-500, .1);
         background: transparent;
         font-size: 14px;
@@ -29,6 +29,7 @@
 
         @include hover-focus {
             border-color: $white;
+            width: 50%; transition: 0.6s;
         }
     }
 
